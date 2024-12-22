@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+ }
+ 
+ .navbar {
+     background-color: #0f1111;
+     height: 60px;
+     color: white;
+     display: flex;
+     align-items:center;
+     justify-content: space-evenly;
+ }
+ 
+ .logo {
+     height: 50px;
+ }
+ 
+ .logo1 {
+     background-image: url(amazon_logo.png);
+     height: 50px;
+     width: 113px;
+     background-size: cover;
+ }
+ 
+ .border:hover {
+     border: 1.5px solid white;
+ }
+ .address
+  {
+    height: 50px;
+    width:80px;
+    border-right: 10px;
+    border-left: 10px;
+    padding:2.98px 2.98px 2.98px 2.98px;
+     display: flex;
+     flex-direction: column;  
+     justify-content: center;
+ }
+ 
+
+ .add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left:15px;
+ }
+
+ .add2{
+    color: white;
+    font-size: 1rem;
+    margin-left:4px;
+ }
+
+ .addicon{
+    display: flex;
+    align-items: center;
+ }
+
+.Searching
+{
+    display: flex;
+    
+    height: 40px;
+    width: 930px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.dda
+{
+    background-color: #E6E6E6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 51px;
+    border: none;
+    
+}
+
+.mainsb
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+
+}
+
+.icon
+{
+   
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.1rem;
+
+}
+
+.flag{
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    justify-content: space-evenly;
+    padding: 23px 0px 0px 0px;
+}
+
+.usflag
+{
+    background-image:url(usfla.jpg);
+    height: 19px;
+    width: 30px;
+    background-size:cover;
+   
+}
+
+.arrow{
+font-size: 10px;
+height: 8px;
+width: 4px;
+align-items: end;
+justify-content: end;
+padding-top: 12px;
+}
+
+.en{
+    font-size: 14px;
+    height: 20px;
+    width: 15px;
+    align-items: end;
+    justify-content: end;
+    padding-top: 5.5px;
+}
+
+
+    
+
+
